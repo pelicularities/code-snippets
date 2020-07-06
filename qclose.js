@@ -1,24 +1,16 @@
 var variant = Math.floor(Math.random() * 3); // choose random number from 0 to 2
-var shouldif = ["should", "if"]; // not in use
 var further = ["", "other ", "further "]; // trailing space required
 var queries = ["questions", "queries", "enquiries"];
-var please = ["", "please"]; // not in use
 var hesitate = ["", "do not hesitate to ", "feel free to "]; // trailing space required
 var reachout = ["contact us", "reach out", "get in touch"];
 var happy = ["be glad to", "be happy to", "gladly"];
 var help = ["assist you", "help", "help you"];
-
-// choose random value from shouldif array, NOT IN USE
-var rand_shouldif = shouldif[Math.floor(Math.random() * shouldif.length)];
 
 // choose random value from further array
 var rand_further = further[Math.floor(Math.random() * further.length)];
 
 // choose random value from queries array
 var rand_queries = queries[Math.floor(Math.random() * queries.length)];
-
-// choose random value from please array, NOT IN USE
-var rand_please = please[Math.floor(Math.random() * please.length)];
 
 // choose random value from hesitate array
 var rand_hesitate = hesitate[Math.floor(Math.random() * hesitate.length)];
